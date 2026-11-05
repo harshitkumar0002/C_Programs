@@ -1,7 +1,16 @@
 #include <stdio.h>
 
 // For Loop Program in C :: Printing table of a number using for loop 
-
+/*
+int main(){
+    datatype variable_name;
+    for (initialization; condition; increment/decrement) {
+        // statements
+    }
+    return 0;
+}
+*/
+#include <stdio.h>
 int main() {
     int num;
     
