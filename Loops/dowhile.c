@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    printf("\nDo While Loop: \n");
-    int i=0;
+    printf("Do While Loop in C: \n\n");
 
-    do {
-        printf("Hello, This is Do-while Loop Executing Here...%d\n",i);
-        i++;
+    do{
+        for (int i= 1; i<= 20; i++){
+            printf("Hello \n");
+        }
     }
-    while (i<=20);
+    while(1);
 }
