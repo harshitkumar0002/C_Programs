@@ -7,5 +7,5 @@ void main(){
     p= &num;
     num= 5;
     printf("%d is Num Value\n", num);
-    printf("%d is Pointer Value\n", *p);
-    printf("%d is a Pointer Address\n", p);
+    printf("%d is Pointer Value\n", p);
+}
